@@ -8,6 +8,11 @@ const List = () => {
     const [error, setError] = useState(null);
 
     useEffect(() => {
+        const instance = axios.create({
+            headers: {
+                'name-company': 'tamaras-bysykkel',
+            },
+        });
         const fetchData = async () => {
             try {
                 const [statusResponse, infoResponse] = await Promise.all([
