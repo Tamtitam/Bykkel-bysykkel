@@ -10,7 +10,7 @@ const List = () => {
     useEffect(() => {
         const instance = axios.create({
             headers: {
-                'name-company': 'tamaras-bysykkel',
+                'Client-Identifier': 'tamaras-bysykkel',
             },
         });
         const fetchData = async () => {
