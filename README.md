@@ -1,5 +1,4 @@
 # Tamaras notat: 
-Hei,
 
 Dette er en React App, opprettet med 'Create React App'.
 
